@@ -47,4 +47,20 @@ Data 09/04
 >>> print("Data {:02d}/{:02d}".format(19, 11))
 Data 19/11
 
+# Formatação geral
+
+print("Ola Sr.{1} {0}".format("Cordeiro","Leonardo"))
+"Ola Sr. Leonardo Cordeiro"
+
+# Python 3.6+
+# A partir da versão 3.6 do Python, foi adicionado um novo recurso para realizar a 
+# interpolação de strings. Esse recurso é chamado de f-strings ou formatted string literals.
+
+nome = 'Matheus'
+print(f'Meu nome é {nome}')
+Meu nome é Matheus
+
+print(f'Meu nome é {nome.lower()}')
+Meu nome é matheus
+
 ```
